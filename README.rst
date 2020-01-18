@@ -1,8 +1,8 @@
 facially-edge
 ================
 
-.. image:: https://travis-ci.org/computationalcore/facially-targeted-ads-edge-app.svg?branch=master
-    :target: https://travis-ci.org/computationalcore/facially-targeted-ads-edge-app
+.. image:: https://travis-ci.org/computationalcore/facially-edge.svg?branch=master
+    :target: https://travis-ci.org/computationalcore/facially-edge
 
 
 (Work in progress)
