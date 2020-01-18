@@ -3,6 +3,10 @@ facially-edge
 
 .. image:: https://travis-ci.org/computationalcore/facially-edge.svg?branch=master
     :target: https://travis-ci.org/computationalcore/facially-edge
+    
+.. image:: https://coveralls.io/repos/github/computationalcore/facially-edge/badge.svg?branch=master
+    :target: https://coveralls.io/github/computationalcore/facially-edge?branch=master
+
 
 
 (Work in progress)
