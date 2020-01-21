@@ -28,6 +28,3 @@ install:
 
 script:
   tox
-
-after_script:
-    - coveralls

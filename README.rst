@@ -4,9 +4,6 @@ facially-edge
 .. image:: https://travis-ci.org/computationalcore/facially-edge.svg?branch=master
     :target: https://travis-ci.org/computationalcore/facially-edge
     
-.. image:: https://coveralls.io/repos/github/computationalcore/facially-edge/badge.svg?branch=master
-    :target: https://coveralls.io/github/computationalcore/facially-edge?branch=master
-
 .. image:: https://img.shields.io/lgtm/grade/python/g/computationalcore/facially-edge.svg?logo=lgtm&logoWidth=18
     :target: https://lgtm.com/projects/g/computationalcore/facially-edge/context:python
 
