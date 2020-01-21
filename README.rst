@@ -41,6 +41,27 @@ Windows users typically access Python through the
 link in their ``PATH``. Within a virtual environment, all platforms operate the same and use a
 ``python`` link to access the Python version used in that virtual environment.
 
+
+Installation
+------------
+
+To install and run the program without development environment folloe the instruction
+
+Create and start the virtual environment (Check section "Virtual Environments"  for more details)
+.. code:: bash
+
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+
+Install the requirements
+    $ pip -r requirements.txt
+
+To execute the cli (example)
+.. code:: bash
+
+    $ cd src
+    $ python -m facially.cli -s World
+
 Packaging
 ---------
 
