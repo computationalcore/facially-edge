@@ -8,7 +8,7 @@ from exitstatus import ExitStatus
 from facially.lib import generate
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(parse_this=None) -> argparse.Namespace:
     """Parse user command line arguments."""
     parser = argparse.ArgumentParser(description='Print a Hello ARGUMENT message.',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -16,12 +16,15 @@ def parse_args() -> argparse.Namespace:
                         type=str,
                         required=True,
                         help='The input string to be printed.')
-    return parser.parse_args()
+    return parser.parse_args(parse_this)
 
 
-def main() -> ExitStatus:
-    """Accept arguments from the user, and display Hello ARGUMENT"""
-    args = parse_args()
+def main(args=None) -> ExitStatus:
+    """Accept arguments and display a 'Hello ARGUMENT' """
+    if not args:
+        args = parse_args()
+    else:
+        args = parse_args(args)
 
     print(generate(args.s))
     return ExitStatus.success
