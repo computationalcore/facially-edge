@@ -23,7 +23,7 @@ def main() -> ExitStatus:
     """Accept arguments from the user, and display Hello ARGUMENT"""
     args = parse_args()
 
-    print(generate(args.n))
+    print(generate(args.s))
     return ExitStatus.success
 
 
