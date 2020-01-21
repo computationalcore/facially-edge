@@ -26,10 +26,8 @@ install:
   - pip install --upgrade virtualenv
   - pip install tox
 
-after_success: 'npm run coveralls'
-
 script:
   tox
 
-notifications:
-  email: false
+after_script:
+    - coveralls
