@@ -5,3 +5,6 @@
 #    pip-compile
 #
 exitstatus==1.4.0
+opencv-python>=3.4.0
+numpy>=1.11.0
+scipy>=1.1.0
